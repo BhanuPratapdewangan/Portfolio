@@ -91,7 +91,7 @@ header
 }
 .banner     
 {
-    background-image: url("public/Images/banner.png");
+    background-image: url("src/Style/banner.png");
     height: 400px;
     margin-top:10px;
     box-shadow: 2px 4px 4px rgb(240, 208, 208);
