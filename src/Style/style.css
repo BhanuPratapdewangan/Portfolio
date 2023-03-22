@@ -1,0 +1,224 @@
+
+body
+{
+    margin-top: 10px;
+}
+.bi-back 
+{
+    color:rgb(231, 133, 133);
+}
+aside 
+{
+    margin-right: 0px;
+}
+.side-bar
+{
+    width: 30px;
+    background-color: rgb(253, 249, 249);
+    color:black;
+    padding: 5px;
+    position:fixed;
+    text-align:center;
+    color: white;
+}
+.side-bar .bi-youtube
+{
+    color:red;
+}
+.side-bar .bi-instagram 
+{
+    color:red;
+}
+.side-bar .bi-youtube:hover
+{
+    font-size: large;
+}
+.side-bar .bi-instagram:hover
+{
+    font-size: large;
+}
+.bi-twitter:hover
+{
+    font-size: large;
+}
+.bi-facebook:hover
+{
+    font-size: large;
+}
+header 
+{
+    box-shadow: 2px 4px 4px rgb(240, 208, 208);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0px;
+    background-color: white;
+}
+.title
+{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.nav-bar 
+{
+    margin-top: 3px;
+    display: flex;
+    font-weight:bold;
+}
+.nav-bar a
+{
+    margin-left: 15px;
+    justify-content: space-between;
+    text-decoration: none;
+    color:black;
+}
+.nav-bar a:hover 
+{
+    color:rgb(253, 44, 44);
+}
+.side-panel
+{
+    font-family: sans-serif;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color:rgb(27, 23, 23);
+}
+.banner     
+{
+    background-image: url("/public/Images/banner.png");
+    height: 400px;
+    margin-top:10px;
+    box-shadow: 2px 4px 4px rgb(240, 208, 208);
+}
+.side-panel h2 
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 4px 4px rgb(240, 208, 208);
+}
+.side-panel p 
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 4px 4px rgb(240, 208, 208);
+}
+.side-panel button 
+{
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer .footer-header 
+{
+    background-color: rgb(26, 4, 26);
+    color: white;
+    padding: 30px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    line-height: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans  Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px 4px rgb(240, 208, 208);
+    margin-top: 20px;
+}
+footer .footer-bottom
+{
+    color:yellow;
+}
+
+.footer-title
+{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+footer a 
+{
+    text-decoration: none;
+    color: white;
+}
+main
+{
+   margin:80px;
+}
+#main-content p a
+{
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.services 
+{
+    margin-top: 60px;
+}
+.bi-mortarboard-fill
+{
+    font-size: 60px;
+    color:orange;
+    text-align: center;
+}
+.bi-dice-2-fill
+{
+    margin-top: 10px;
+    font-size: 50px;
+    color:orange;
+    text-align: center;
+}
+.card
+{
+    z-index: -1;
+}
+#card-design .card-title 
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#card-design a 
+{
+    text-decoration: none;
+}
+#card-design
+ {
+    justify-content: space-between;
+    margin:40px;
+ }
+#card-design .card:hover
+{
+    color: rgb(66, 51, 51);
+    background-color:rgb(253, 204, 212,0.2);
+}
+.contact-banner 
+{
+    background-image: url("/public/Images/banner3.png");
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 3px 4px rgb(240, 208, 208);
+}   
+#textMessage 
+{ 
+    background-image: url("/public/Images/banner3.png");
+    margin-top: 100px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 3px 4px rgb(240, 208, 208);
+}
+#textMessage .form-control 
+{
+    margin-bottom:20px ;
+}

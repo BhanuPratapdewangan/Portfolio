@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/src/Style/style.css">
+    <script>
+        
+        $(function() {
+
+            function LoadLayout(url)
+            {
+                $.ajax({
+
+                    method: "GET",
+                    url : url,
+                    success  : ((data) => {
+
+                        $(".banner").html(data);
+                    })
+                })
+            }
+
+            $("#Home").click(()=> {
+
+                LoadLayout("Home.html");
+            })
+
+            $("#About").click(()=> {
+
+                LoadLayout("About.html");
+            })
+
+            // $("#Services").click(()=> {
+
+            //     LoadLayout("Services.html");
+            // })
+
+            // $("#Portfolio").click(()=> {
+
+            //     LoadLayout("Portfolio.html");
+            // })
+
+            // $("#Page").click(()=> {
+
+            //     LoadLayout("Page.html");
+            // })
+
+            // $("#Contact").click(()=> {
+
+            //     LoadLayout("Contact.html");
+            // })
+        })
+    </script>
+</head>
+<body class="container-fluid">
+
+    <header>
+        <!-- Portfolio header -->
+        <div class="title"><span class="bi bi-back"></span> PORTFOLIO</div>
+        <div class="nav-bar">
+            <a href="#" id="Home">Home</a>
+            <a href="#" id="About">About</a>
+            <a href="#" id="Services">Services</a>
+            <a href="#" id="Portfolio">Portfolio</a> 
+            <a href="#" id="Page">Page</a>
+            <a href="#" id="Contact">Contact</a>
+        </div>
+    </header>
+
+    <section>
+        <!-- Banner of my profile -->
+        <nav>
+            <div class="banner">
+               <div class="side-panel">
+                    <div>
+                        <h2>I am Web Developer</h2>
+                        <p>Check my Profile</p><br><br>
+                        <button class="btn btn-danger">Sign</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+               </div>
+            </div>
+        </nav>
+        <menu>
+            <aside>
+                <!-- Social media links -->
+                <div class="side-bar">
+                    <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530338610&extra_1=s|c|547419127652|e|instagram%20login|&placement=&creative=547419127652&keyword=instagram%20login&partner_id=googlesem&extra_2=campaignid%3D13530338610%26adgroupid%3D126262414054%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-35100690670%26loc_physical_ms%3D9062127%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiA1NebBhDDARIsAANiDD2k5ToYWXTHqyBwbjMpe3zGH1sloA7A2xs-WXsMOx66GZrLu5efVjkaAuIcEALw_wcB"><span class="bi bi-instagram"></span></a>
+                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%20%27%7C&placement=&creative=589460569849&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9062127%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiA1NebBhDDARIsAANiDD0RV6ddOeep-I2IDldL-CtnRsXBVJeZ8UxWm8EETrmuvvu3r9eeH_gaApoPEALw_wcB"><span class="bi bi-facebook"></span></a>
+                    <a href="https://www.youtube.com/channel/UCEDzrtDIdYcTA7gvjK2J9XA"><span class="bi bi-youtube"></span></a>
+                    <a href="https://twitter.com/i/flow/login"><span class="bi bi-twitter"></span></a>
+                </div>
+            </aside>
+        </menu>
+        <main>
+            <!-- Contents -->
+            <div class="row" id="main-content">
+                <div class="col-5">
+                    <h3>Designing With Passion While Exploring The World.</h3>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+    
+                        Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5">
+                    <h2>Any Type Of Query & Discussion.</h2><br>
+
+                    <p>Late talk with me</p>
+                    <p><a href="#">bhanupratap04123@gmail.com <span class="bi bi-chevron-double-right "></span></a></p>
+                </div>
+            </div>
+            <div class="services">
+                <h2>What Services you will <br>Get from me!</h2>
+            </div>
+
+            <!-- Card Design -->
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="card-design">
+                <div class="col">
+                    <!-- z-index:-1 (css property) -->
+                  <div class="card h-100">
+                    <img src="" class="card-img-top"><span class="bi bi-mortarboard-fill"></span>
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="#">UI Design</a></h5>
+                      <p class="card-text">This is a  wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="" class="card-img-top"><span class="bi bi-dice-2-fill"></span>
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="#">Website Design</a></h5>    
+                      <p class="card-text">Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+            </div>        
+        </main>
+        <!-- Contact banner  -->
+        <div class="contact-banner">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Dont worry for contact i`m available</h2>
+                </div>
+                <div class="col-6">
+                    <p><button class="btn btn-danger">Contact me Now</button></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact me by message -->
+        <div class="container-fluid" id="textMessage">
+            <div class="row">
+                <div class="col-6">
+                    <h2>If Not Now, When? Let's Work Together!</h2>
+                </div>
+                <div class="col-6">
+                    <dl class="w-100">   
+                        <dt><input type="text" id="textName" class="form-control" placeholder="Full Name"></dt>
+                        <dt><input type="text" id="textEmail" class="form-control" placeholder="Email Address"></dt>
+                        <dt><input type="text" id="textNassage" class="form-control" placeholder="Your Message"></dt>
+                        <dt><button class="btn btn-danger w-100">Send Message</button></dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer of portfolio -->
+        <div class="footer-header">
+            <div>
+                <div>
+                    <p class="footer-title">PORTFOLIO</p>
+                    <h2><a href="#">bhanupratap04123@gmail.com</a></h2>
+
+                    <div>
+                        <p>HiTech City</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
