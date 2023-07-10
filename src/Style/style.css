@@ -91,7 +91,7 @@ header
 }
 .banner     
 {
-    background-image: url("src/Style/banner.png");
+    background-image: url("./banner.jpg");
     height: 400px;
     margin-top:10px;
     box-shadow: 2px 4px 4px rgb(240, 208, 208);
@@ -197,18 +197,20 @@ main
 }
 .contact-banner 
 {
-    background: url("public/Images/banner2.png");
+    background: url("/Portfolio/public/Images/banner3.jpg");
     height: 200px;
     width: 100%;
     display: flex;
     justify-content:center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     text-align: center;
     box-shadow: 2px 3px 4px rgb(240, 208, 208);
 }   
 #textMessage 
 { 
-    background: url("public/Images/banner3.png");
+    background: url("/Portfolio/public/Images/banner3.jpg");
     margin-top: 100px;
     height: 350px;
     width: 100%;
