@@ -91,7 +91,7 @@ header
 }
 .banner     
 {
-    background-image: url("src/Style/banner.png");
+    background-image: url("src/Style/banner.jpg");
     height: 400px;
     margin-top:10px;
     box-shadow: 2px 4px 4px rgb(240, 208, 208);
@@ -197,7 +197,7 @@ main
 }
 .contact-banner 
 {
-    background: url("public/Images/banner2.png");
+    background: url("public/Images/banner3.jpg");
     height: 200px;
     width: 100%;
     display: flex;
@@ -208,7 +208,7 @@ main
 }   
 #textMessage 
 { 
-    background: url("public/Images/banner3.png");
+    background: url("public/Images/banner3.jpg");
     margin-top: 100px;
     height: 350px;
     width: 100%;
